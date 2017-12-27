@@ -1,0 +1,47 @@
+<LeadManagement> 
+	<Prospects>
+		<Prospect>
+			<LastUpdateDate>2002-05-30T09:00:00</LastUpdateDate>
+			<Customers>
+				<Customer Type=" CustomerInfo [1]"> </Customer>
+			</Customers>
+			<CustomerPreferences>
+				<TargetMoveInDate>2002-05-30T09:00:00</TargetMoveInDate>
+				<DesiredFloorplan>Plan1</DesiredFloorplan>
+				<DesiredUnit>UnitTypeName</DesiredUnit>
+				<DesiredRent>
+					<Min>1000</Min>
+					<Max>1500</Max>
+					<Exact>1200</Exact>
+				</DesiredRent>
+				<DesiredNumBedrooms>
+					<Min>2</Min>
+					<Max>3</Max>
+					<Exact>2</Exact>
+				</DesiredNumBedrooms>
+				<DesiredNumBathrooms>
+					<Min>2</Min>
+					<Max>3</Max>
+					<Exact>2</Exact>
+				</DesiredNumBathrooms>
+				<DesiredLeaseTerms>monthly</DesiredLeaseTerms>
+				<NumberOfOccupants>3</NumberOfOccupants>
+				<FloorLevelDesired>1</FloorLevelDesired>
+				<DesiredDeposit> CurrencyRangeType </DesiredDeposit>
+				<Amenities> SpecificAmenityType </Amenities>
+				<Pets
+					PetType="dog"
+					Description=""
+					Count="1"
+					Size="Large"
+					Weight="42"/>
+				<CustomerAdditionalPreferences> AdditionalPreference </CustomerAdditionalPreferences>
+				<Comment>Kitchen must be big!</Comment>
+			</CustomerPreferences>
+			<Events>
+				<Event> EventType </Event>
+			</Events>
+		</Prospect>
+	</Prospects>
+	<CustomRecords></CustomRecords>
+</LeadManagement>
